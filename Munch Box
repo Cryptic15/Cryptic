@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snack Box Subscription</title>
+</head>
+<body>
+	<h1>Select 8 snacks for your box</h1>
+	<form method="post" action="process_order.php">
+		<label for="snack1">Snack 1:</label>
+		<select name="snack1" id="snack1">
+			<option value="Potato Chips">Potato Chips</option>
+			<option value="Popcorn">Popcorn</option>
+			<option value="Granola Bar">Granola Bar</option>
+			<option value="Trail Mix">Trail Mix</option>
+			<option value="Pretzels">Pretzels</option>
+			<option value="Rice Cakes">Rice Cakes</option>
+			<option value="Veggie Chips">Veggie Chips</option>
+			<option value="Fruit Leather">Fruit Leather</option>
+		</select>
+		<br>
+		<label for="snack2">Snack 2:</label>
+		<select name="snack2" id="snack2">
+			<option value="Potato Chips">Potato Chips</option>
+			<option value="Popcorn">Popcorn</option>
+			<option value="Granola Bar">Granola Bar</option>
+			<option value="Trail Mix">Trail Mix</option>
+			<option value="Pretzels">Pretzels</option>
+			<option value="Rice Cakes">Rice Cakes</option>
+			<option value="Veggie Chips">Veggie Chips</option>
+			<option value="Fruit Leather">Fruit Leather</option>
+		</select>
+		<br>
+		<!-- repeat this for snacks 3 to 8 -->
+		<input type="submit" value="Order Now">
+	</form>
+	<br>
+	<form method="post" action="subscribe.php">
+		<input type="submit" value="Subscribe Monthly">
+	</form>
+</body>
+</html>
